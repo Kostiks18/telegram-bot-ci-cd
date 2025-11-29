@@ -11,7 +11,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
     await message.answer(
-    "Привет! Я обновлённый и протестированный DevOps CI/CD бот.\n"
+    "Привет! Я протестированный DevOps CI/CD бот.\n"
     "Я развёрнут через GitHub Actions и Docker."
 )
 

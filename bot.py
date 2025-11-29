@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 import asyncio
-#srgkbrg
+#srgkbrgsgerher
 from config import BOT_TOKEN
 from db import save_message, get_last_messages
 
